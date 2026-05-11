@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet');
+
+body{
+	font-family: 'Roboto', serif;
+	margin: 0;
+	background-color: lightcyan;
+}
+
+/* Website Links except the nav */
+a:link{
+	color: forestgreen;
+}
+
+a:visited{
+	color: blue;
+}
+
+a:hover{
+	color: yellow;
+}
+
+a:active{
+	color: red;
+}
+
+header{
+	text-align: center;
+}
+
+nav{
+	background-color: cyan;
+	border-top: 3px solid black;
+	border-bottom: 3px solid black;
+	padding: 5px;
+}
+
+/* Navigation */
+nav ul{
+	list-style-type: none;
+	text-align: center;
+	margin: 8px 0;
+	padding: 0;
+}
+
+nav li{
+	display: inline;
+	padding: 5px;
+}
+
+nav a{
+	text-decoration: none;
+}
+
+nav a:link{
+	color: blue;
+}
+
+nav a:visited{
+	color: blue;
+}
+
+nav a:hover{
+	color: white;
+}
+
+nav a:active{
+	color: darkred;
+}
+
+/* Main*/
+main{
+	max-width: 1200px;
+	margin: 20px auto;
+	padding: 10px;
+}
+
+
+/* Footer */
+footer{
+	background-color: darkcyan;
+	color: lightblue;
+	border-top: purple 3px solid;
+	text-align: center;
+}
+
+h1, h2, h3{
+	font-family: 'Montserrat', serif;
+}
+
+.fa{
+	font-size: 2em;
+	color: lightblue;
+}
+
+blockquote{
+	background-color: lightblue;
+	border-left: 10px solid darkblue;
+	padding: 30px;
+}
+
+footer .fa{
+	font-size: 4em;
+	color: gold;
+	padding: 10px;
+}
+
+/*CSS without a media query--applies to all sizes unless overridden*/
+h1{
+	font-size: 4em;
+}
+
+/* CSS Adjustments for Tablets */
+@media only screen and (max-width: 1024px) {
+	h1{
+		font-size: 1.8em;
+	}
+
+	img{
+		display: block;
+		margin: 0 auto;
+	}
+}
+
+/* CSS Adjustments for Smartphones */
+@media only screen and (max-width: 768px) {
+	h1{
+		font-size: 1.5em;
+	}
+
+	img{
+		display: block;
+		margin: 0 auto;
+	}
+}
